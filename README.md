@@ -17,7 +17,7 @@ Sigue estos pasos para configurar y ejecutar la aplicación en tu entorno local:
 2. Navega a la carpeta del proyecto:
 
    ```bash
-   cd EFI_Tobares_Kissling
+   cd EFI_Javascript
    ```
 
 3. Instala las dependencias del proyecto:
