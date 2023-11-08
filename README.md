@@ -71,7 +71,7 @@ Este proyecto está bajo la licencia [MIT](LICENSE).
 
 Si tienes alguna pregunta o necesitas ayuda, no dudes en contactar a los desarrolladores:
 
-- Nombre: [Tus Nombres Completos]
+- Nombre: [Tobares Juan Cruz y Kissling Guillermo Daniel]
 - Correo Electrónico: [j.tobares@itecriocuarto.org.ar, g.kissling@itecriocuarto.org.ar]
 
 ¡Esperamos que disfrutes usando EFI_Tobares_Kissling! 😊
