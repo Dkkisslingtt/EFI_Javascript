@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Tareas from '../componet/Tareas';
+import Tareas from '../components/Tareas';
 
 function Home({ loggedIn, logout }) {
   return (

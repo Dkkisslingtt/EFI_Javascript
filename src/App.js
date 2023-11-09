@@ -4,8 +4,8 @@ import Home from './pages/Home';
 import Login from './pages/Login';
 import Contact from './pages/Contact';
 import './style/App.css';
-import Tareas from './componet/Tareas';
-import Navbar from './componet/NavBar';
+import Tareas from './components/Tareas';
+import Navbar from './components/NavBar';
 import Nueva_tarea from './pages/NuevaTarea';
 const user = {
   username: 'user',
