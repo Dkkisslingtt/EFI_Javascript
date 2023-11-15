@@ -7,6 +7,7 @@ import Login from './pages/Login';
 import Contact from './pages/Contact';
 import Tareas from './componet/Tareas';
 import Navbar from './componet/NavBar';
+import './style/App.css';
 import Nueva_tarea from './pages/NuevaTarea';
 import './style/App.css';
 

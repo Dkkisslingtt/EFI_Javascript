@@ -2,6 +2,7 @@ import React from 'react';
 import Login from './Login';
 import Tareas from '../componet/Tareas';
 
+
 function Home({ loggedIn, user, login }) {
   return (
     <div className="min-h-screen flex flex-col justify-center items-center">

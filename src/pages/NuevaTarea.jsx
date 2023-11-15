@@ -1,5 +1,5 @@
 import React from 'react';
-import TareaForm from '../componet/TareaForm';
+import TareaForm from '../components/TareaForm';
 
 const Nueva_tarea = () => {
   return (
