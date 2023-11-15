@@ -50,7 +50,7 @@ function App() {
               />
               <Route
                 path="/tareas"
-                element={<Tareas />}
+                element={loggedIn ? <Tareas /> : <Login user={user} login={login}/>}
               />
             </Routes>
           </div>
