@@ -1,6 +1,6 @@
 import React from 'react';
 import Login from './Login';
-import Tareas from '../componet/Tareas';
+import Tareas from '../components/Tareas';
 
 
 function Home({ loggedIn, user, login }) {
