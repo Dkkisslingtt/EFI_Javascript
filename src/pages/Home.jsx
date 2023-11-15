@@ -1,8 +1,8 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import Login from './Login';
 import Tareas from '../componet/Tareas';
 
-function Home({ loggedIn, logout }) {
+function Home({ loggedIn, user, login }) {
   return (
     <div className="min-h-screen flex flex-col justify-center items-center">
       {loggedIn ? (
@@ -12,10 +12,7 @@ function Home({ loggedIn, logout }) {
         </div>
       ) : (
         <div className="text-center">
-          <h1 className="text-4xl font-bold mb-4">Página de Inicio</h1>
-          <Link to="/login" className="block bg-blue-500 text-white rounded-md py-2 px-4 mx-auto hover:bg-blue-600 transition duration-300 ease-in-out">
-            Iniciar Sesión
-          </Link>
+          <Login user={user} login={login}/>
         </div>
       )}
     </div>

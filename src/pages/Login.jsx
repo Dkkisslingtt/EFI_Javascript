@@ -6,7 +6,6 @@ function Login({ user, login, loggedIn }) {
   const [password, setPassword] = useState('');
   const navigate = useNavigate();
 
-  // Redirigir al inicio si el usuario ya está autenticado
   if (loggedIn) {
     navigate('/');
   }
